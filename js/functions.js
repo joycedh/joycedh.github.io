@@ -44,11 +44,11 @@ var Captions = [
     "Trump Names Mike Pence to Lead Coronavirus Response"
 ]
 
-var imageNumber = 0
+var imageFile = ""
 
 function getRandomImage() { 
     var number = Math.floor(Math.random()*imageFiles.length);
-    var imageFile  = imageFiles[number] ;
+    imageFile  = imageFiles[number] ;
 
     var imageDiv = document.getElementById("image-div");
 
