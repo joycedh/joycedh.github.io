@@ -19,7 +19,7 @@ var Captions = [
     "Harvey Weinstein Is Found Guilty of Sex Crimes in #MeToo Watershed", "Bernie Sanders Wins Nevada Caucuses, Strengthening His Primary Lead",
     "'Like Europe in Medieval Times': Virus Slows China's Economy", "Harvey Weinstein Is Found Guilty of Sex Crimes in #MeToo Watershed",
     "Trump Acquitted of Two Impeachment Charges in Near Party-Line Vote", "Muddled Democratic Race Hurtles to New Hampshire",
-    "How the Iowa Caucuses Became an Epic Fiasco for Democrats", "Bloomberg’s Billions: How the Candidate Built an Empire of Influence",
+    "How the Iowa Caucuses Became an Epic Fiasco for Democrats", "Bloomberg's Billions: How the Candidate Built an Empire of Influence",
     "Huawei Is Winning the Argument in Europe, as the U.S. Fumbles to Develop Alternatives", "Trump Fires Impeachment Witnesses Gordon Sondland and Alexander Vindman in Post-Acquittal Purge",
     "Bernie Sanders Scores Narrow Victory in New Hampshire Primary", "Republicans Block Impeachment Witnesses, Clearing Path for Trump Acquittal",
     "While Stained in History, Trump Will Emerge From Trial Triumphant and Unshackled", "SARS Stung the Global Economy. The Coronavirus Is a Greater Menace.",
@@ -28,7 +28,7 @@ var Captions = [
     "Trump Fires Impeachment Witnesses Gordon Sondland and Alexander Vindman in Post-Acquittal Purge", "How the Iowa Caucuses Became an Epic Fiasco for Democrats",
     "'Like Europe in Medieval Times': Virus Slows China's Economy", "Bernie Sanders Scores Narrow Victory in New Hampshire Primary",
     "Centrist Democrats Want to Stop Sanders. They're Not Sure Who Can.", "Barr Says Attacks From Trump Make Work 'Impossible'",
-    "William Barr Moves to Take the Reins of Politically Charged Cases", "Bloomberg’s Billions: How the Candidate Built an Empire of Influence",
+    "William Barr Moves to Take the Reins of Politically Charged Cases", "Bloomberg's Billions: How the Candidate Built an Empire of Influence",
     "Coronavirus Infection Found After Cruise Ship Passengers Disperse", "Huawei Is Winning the Argument in Europe, as the U.S. Fumbles to Develop Alternatives",
     "Trump Grants Clemency to Blagojevich, Milken and Kerik", "Warren Leads an Onslaught of Attacks, Zeroing In on Bloomberg", 
     "Lawmakers Are Warned That Russia Is Meddling to Re-elect Trump", "Russia Is Said to Be Interfering to Aid Sanders in Democratic Primaries",
@@ -48,12 +48,12 @@ var imageNumber = 0
 
 function getRandomImage() { 
     var number = Math.floor(Math.random()*imageFiles.length);
-    imageNumber = number;
+    var imageFile  = imageFiles[number] ;
 
     var imageDiv = document.getElementById("image-div");
 
     var img = document.createElement("img");
-    var source = "images/" + imageFiles[number] + ".png";
+    var source = "images/" + imageFile + ".png";
     img.src = source;
     console.log(img.src)
     imageDiv.appendChild(img);
@@ -76,7 +76,7 @@ const form = document.forms['responses']
 form.addEventListener('submit', e => {
     e.preventDefault()
     var formData = new FormData(form);
-    formData.append('image', imageNumber);
+    formData.append('image', imageFile);
     fetch(scriptURL, { method: 'POST', body: formData})
     .then(response =>  { console.log('Success!', response); window.location.href="thanks.html";} )
     .catch(error => console.error('Error!', error.message))
