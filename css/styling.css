@@ -121,3 +121,18 @@ button {
       padding: 20px 50px;
     }
 }
+
+.contactlink {
+    color: blue;
+    font-size: small;
+}
+.contact{
+    margin: auto;
+    margin-top: -20px ;
+    background-color: white;
+}
+
+.go-back {
+    background-color: white;
+    color: black;
+}
