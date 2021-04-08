@@ -1,6 +1,8 @@
-# joycedh.github.io
+# [joycedh.github.io](joycedh.github.io)
 ** WORK IN PROGRESS **
 <br><br>  TODO:
-- why are sizes smaller hosted here than when testing
+- <s>why are sizes smaller hosted here than when testing</s>
+- compatability with other browsers
+- 'about' page
 - clean up scripts
 
