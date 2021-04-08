@@ -1,0 +1,258 @@
+@font-face {
+  font-family: 'Joyce Regular';
+  src: url(fonts/Joyce-Regular.ttf);
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+}
+
+a:hover {
+  color: yellowgreen;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Joyce Regular";
+    list-style: none;
+    box-sizing: border-box;
+    background: black;
+  }
+  
+nav {
+    position: fixed;
+    z-index: 100;
+    height: 8vh;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+  }
+  
+.logo {
+    color: #fff;
+    font-weight: 600;
+    font-size:50px;
+    cursor: url("images/star4_1.png"), pointer;
+  }
+  
+nav .nav-links ul {
+    display: flex;
+    flex-direction: row;
+    cursor: url("images/star4_1.png"), pointer;
+  }
+  
+nav .nav-links ul li {
+    padding: 0 4px;
+    list-style: none;
+  }
+  
+nav .nav-links ul li img {
+    transform: scale(0.70);
+    cursor: url("images/star4_1.png"), pointer;
+  }
+
+/* ------- FOOTER -------------- */
+
+
+.footer {
+  position: absolute;
+  top:190%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 2rem;
+
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: "Comic Sans MS" !important;
+  font-size: small;
+} 
+  
+/* ----------------- here gallery starts --------- */
+.gall_img {
+  width: 130%;
+  right: 50%;
+}  
+
+.gall_text {
+  font-family: 'Joyce Regular';
+  color: red;
+  font-weight: bolder;
+  mix-blend-mode: screen;
+  font-size:870%;
+  position: absolute;
+  line-height: 0.6;
+  top: 50%;
+  left: 65%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.box1 {
+  position: absolute;
+  width: 30%;
+  left: 10%;
+  top: 15%;
+  cursor: url("images/star4_1.png"), pointer;
+}
+
+.box2 {
+  position: absolute;
+  width: 30%;
+  left: 55%;
+  top: 50%;
+  cursor: url("images/star4_1.png"), pointer;
+}
+
+.box2 .text{
+  font-size: 1800%;
+  color:blue;
+}
+
+.box3 {
+  position: absolute;
+  width: 30%;
+  left: 10%;
+  top: 90%;
+  cursor: url("images/star4_1.png"), pointer;
+}
+
+.box3 .text {
+  font-size: 870%;
+  color: rgba(255, 255, 0, 0.466);
+}
+
+
+/* ----------- GAN research ---------------------  */
+
+.text2 h1 {
+  font-family: "AlphaCentauri" !important;
+  font-size: 9vw;
+  color: pink;
+  letter-spacing: 20px;
+  position: absolute;
+  top: 50vh;
+  left: 10%;
+  z-index: 3;
+  text-shadow: 2px 2px 30px #000000, 0 0 25px red;
+}
+
+.gan-image2 {
+  position: absolute;
+  z-index: 1;
+}
+
+.bod { 
+  background-image: url('images/drawing.png');
+  background-position: 70% 10%;
+  position: relative;
+}
+
+.expl {
+  font-size: 6vw;
+  color: white;
+  position: absolute;
+  top: 100%;
+  left: 7%;
+  right: 5%;
+}
+
+
+
+
+/* ------------- GAN ART --------------  */
+
+.gan-image {
+    position: absolute;
+    z-index: 1;
+}
+
+.art_text{
+  font-family: "AlphaCentauri" !important;
+  font-size: 9vw;
+  color: yellow;
+  letter-spacing: 20px;
+  position: relative;
+  top: 50vh;
+  left: 30%;
+  margin-right: 30%;
+  z-index: 3;
+  text-shadow: 2px 2px 30px #000000, 0 0 25px red;
+}
+
+
+.ball-art{
+    position: absolute ;
+    /* right: %; */
+    left: -20%;
+    top: 25%;
+    width: 200%;
+  }
+
+  .footer2 {
+    position: absolute;
+    top:160%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 2rem;
+  
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    font-size: small;
+  } 
+
+/* -------- LIjNTJE --------  */
+
+h2 {
+    font-family: "AlphaCentauri" !important;
+    font-size: 5vw;
+    color: white;
+    letter-spacing: 20px;
+    position: relative;
+    top: 10%;
+    left: 35vw;
+    z-index: 3;
+  }
+
+.lijntje {
+    position: relative;
+}
+
+.footer3 {
+  position: absolute;
+  top:96%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 2rem;
+
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-family: "Comic Sans MS";
+  font-size: small;
+} 
+
+  
