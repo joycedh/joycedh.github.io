@@ -1,0 +1,1 @@
+PureDance is an interactive sound experience that generates sound on the basis of the user’s position in space and the movements and angles of their arms and legs. Using PureDate and MediaPipe’s PoseNet to turn the body into an instrument. Every change in limb angles and proximity influences the music being generated.

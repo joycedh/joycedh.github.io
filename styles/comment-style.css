@@ -1,0 +1,78 @@
+#HCB_comment_box {
+    position: relative;
+    top: 25vh;
+    left: 15vw;
+    background-color: transparent;
+}
+
+#HCB_comment_box h3{
+    padding-bottom: 0vh !important; 
+    font-size: calc(1.5*(1vh + 1vw));
+    text-transform: uppercase;
+}
+
+/*  Spacing between leave message and button.. (also bottom text) --> TODO: figure out*/
+#HCB_comment_box p{
+    font-size: calc(0.8*(1vh + 1vw)) !important;
+}
+
+#HCB_comment_box #HCB_comment_form_box .submit.btn,
+#HCB_comment_box #HCB_comment_form_box .btn.btn-secondary {
+    background-color: rgba(255, 255, 0);
+    color:blue;
+    text-transform: uppercase;
+    /* box-shadow: 0vw 0vw 3vw yellow; */
+    border-color: transparent;
+    /* border-radius: 20%; */
+    cursor:pointer;
+  }
+
+  #HCB_comment_box #HCB_comment_form_box .submit.btn:hover,
+#HCB_comment_box #HCB_comment_form_box .btn.btn-secondary:hover {
+    background-color: rgba(255, 255, 0);
+    color:blue;
+    text-transform: uppercase;
+    box-shadow: 0vw 0vw 3vw yellow;
+    border-color: transparent;
+    /* border-radius: 20%; */
+    cursor:pointer;
+  }
+
+
+#HCB_comment_box #hcb_form #hcb_form_name {
+    background-color: transparent;
+    color:yellow;
+}
+
+#HCB_comment_box #hcb_form #hcb_form_content {
+    background-color: transparent;
+    color:yellow;
+}
+
+#HCB_comment_box #hcb_form textarea {
+    width:70vw;
+  }
+
+
+.home-desc{
+    color: transparent;
+}
+.home-desc a,
+.home-desc a:hover,
+.home-desc a:visited{
+    color: transparent !important;
+    text-shadow: none !important;
+}
+
+.hcb-icon {
+    position: relative;
+    height: 1vw;
+    background-color: transparent;
+    right: 90% !important;
+}
+
+/* TODO: footer is a bit weird in this page... */
+.footer {
+    position: fixed;
+    bottom: 0%;
+}

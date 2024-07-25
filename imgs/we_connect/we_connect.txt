@@ -1,0 +1,6 @@
+For the final project of the first year of
+  <a target="_blank" href="https://www.universiteitleiden.nl/en/education/study-programmes/master/media-technology">MSc Media Technology,</a>
+  we had to create an interactive work which showcased our research perspective on the theme ‘Hybrid’.&nbsp;Our group chose to study the concept
+  <i>Heterotopia</i>, coined by Michael Foucault. A
+  <i>heterotopia</i>
+  is a place in between places, a space within a space. It contradicts or inverts the space in which it is within (Foucault, 1994). A public toilet is a good example of this, as it is simultaneously a private space within a very public space.&nbsp;In We_Connect, we wanted to show the audience that a public toilet in a public space is in fact, very public. Therefore, we decided to make a video call connection with the toilet inside the exhibition space. A ring went off in the exhibition space whenever someone entered the toilet. The person in the toilet would find a big screen facing them, with the other person talking to them and asking questions. They could talk back if they want, or mute themselves if they wanted more privacy for doing their business; this would not make the person on the screen disappear.

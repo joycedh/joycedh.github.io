@@ -1,0 +1,400 @@
+/* GENERAL */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    overflow: auto;
+    background: black;
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.space-grotesk-1> {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer {
+    width: 100%;
+    color: white;
+    text-shadow: 0 0 12px red;
+    text-align: center;
+    font-size: small;
+    margin-top: auto;
+  } 
+
+
+/* SUN MENU */
+
+.menu {
+    position: fixed;
+    top: 1vw;
+    left: 1vw;
+    z-index: 1000;
+}
+
+.menu-circle {
+    width: calc(6*(1vh + 1vw));
+    height: calc(6*(1vh + 1vw));
+    background-color: yellow;
+    box-shadow: 0 0 5px yellow;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    position: relative;
+}
+
+.menu-circle:hover{
+    background-color: white;
+    box-shadow: 0 0 15px white;
+}
+
+
+.menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: relative;
+}
+
+.menu-item {
+    position: absolute;
+    width: calc(6*(1vh + 1vw));
+    height: calc(6*(1vh + 1vw));
+    border-radius: 50%;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+    transform: translate(calc(0*(1vh + 1vw)), calc(-10*(1vh + 1vw))) rotate(0deg);
+    pointer-events: none;
+    color: white;
+    font-size: calc(1.5*(1vh + 1vw));
+}
+
+.menu-item a, .menu-item a:visited {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: yellow;
+    text-decoration: none;
+    transform: rotate(0deg); 
+}
+
+.menu-circle.open ~ .menu-items .menu-item {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.menu-item a:hover {
+    color: white;
+    text-shadow: 0 0 12px rgb(255, 255, 255);
+}
+
+.menu-circle.open ~ .menu-items .menu-item:nth-child(1) {
+    transition-delay: calc(1 * 0.1s);
+    transform: translate(calc(6*(1vh + 1vw)), calc(-7*(1vh + 1vw)));   
+}
+
+.menu-circle.open ~ .menu-items .menu-item:nth-child(2) {
+    transition-delay: calc(2 * 0.1s);
+    transform: translate(calc(6*(1vh + 1vw)), calc(-3.5*(1vh + 1vw))) rotate(22.5deg);
+}
+
+.menu-circle.open ~ .menu-items .menu-item:nth-child(3) {
+    transition-delay: calc(3 * 0.1s);
+    transform: translate(calc(4*(1vh + 1vw)), calc(0*(1vh + 1vw))) rotate(55deg);
+}
+
+.menu-circle.open ~ .menu-items .menu-item:nth-child(4) {
+    transition-delay: calc(4 * 0.1s);
+    transform: translate(calc(0*(1vh + 1vw)), calc(2*(1vh + 1vw))) rotate(90deg);
+    
+}
+
+
+/* SPIRAL TEXT */
+
+#spiral {
+    stroke: none;
+}
+svg #spiraltext{
+    fill: blue;
+}
+
+
+
+/* Link style */
+a {
+    color: yellow;
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.75);
+}
+
+a:hover {
+    color: yellow;
+    text-shadow: 0 0 12px rgba(255, 255, 0, 1);
+    letter-spacing: 0.3vw;
+}
+
+a:visited {
+    color: yellow;
+}
+
+
+/* BLOCKS STUFF !! */
+#sketch-container {
+    width: 100%;
+    display: blcok;
+    /* position:static; */
+    justify-content: center;
+    touch-action: none !important;
+}
+
+/* canvas{
+    display: block;
+} */
+
+
+/* INFO TEXT TITLE EXHIBITED ETC  */
+#info-container {
+    width: 100%; 
+    /* margin: auto; */
+    margin-top: 10vh;
+    z-index: 5;
+}
+
+#info-container h1{
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    margin-bottom:5vh;
+    /* background-color: yellow; */
+
+}
+
+#info-container p{
+    font-size: 2.5vw;
+    margin:auto;
+    position: relative;
+    text-align:justify;
+    width: 90%;
+    margin-bottom: 5vh;
+}
+
+
+#exhibited li, #links li{
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+#exhibited h4, #links h4{
+    text-align: center;
+    font-size: 2vw;
+    text-transform: uppercase;
+    margin-bottom: 0%;
+}
+
+#links {
+    margin-bottom: 5vw
+}
+
+/* SOME PHONE SETTINGS!!  */
+@media only screen and (max-width:767px) {
+    #exhibited li, #links li {
+        font-size: 1.5vh;
+    }
+    #exhibited h4, #links h4{
+        font-size: 2vh;
+    }
+    #info-container p, #info-container h1{
+        font-size:2.5vh;
+    }
+    #info-container{
+        margin-top: 5vh;
+    }
+
+    .slider {
+        width: 80% !important;
+    }
+
+    .slick-slide img {
+        height: 30vh !important;    
+        width: auto;     
+    }
+
+    .footer {
+        position: relative;
+        bottom: 0;
+        flex-shrink: 0;
+        margin-top: 10vh;
+    }
+
+    .me {
+        margin-top: 20vh !important;
+      }
+
+}
+
+
+
+/* SLIDER!!!  */
+
+.slider {
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: left;
+    z-index: 5;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.slider .slick-slide {
+    margin: 0 10px;
+}
+
+.slider img {
+    width: auto; 
+    height: auto; 
+    max-width: 100%; 
+    display: block; 
+}
+
+.slick-slide img {
+    height: 60vh;    
+    width: auto;     
+}
+
+.slick-prev:before,  .slick-prev:after {
+    color: yellow;  
+    z-index: 20; 
+    cursor: w-resize;
+    content: '←';
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 15;
+    font-weight: 900;
+    -webkit-text-stroke: 2px yellow;
+}
+
+.slick-next:before, .slick-next:after{
+    color: yellow; 
+    z-index: 20; 
+    cursor: e-resize;
+    content: "→"; 
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 15;
+    font-weight: bold;
+    -webkit-text-stroke: 2px yellow;
+}
+
+
+
+
+
+
+/* ABOUT PAGE */
+
+.about-body { 
+    background: black;
+    background-image: url('../imgs/bg.png');
+    background-size: 220%;
+    background-position: 50% 30%;
+    position: relative;
+    min-height: 100vh;
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+.me {
+    flex: 1;
+    font-size: 3.5vw;
+    color: white;
+    position: relative;
+    margin: 20% 7% 0%;
+    width: 85%;
+    text-align:justify;
+  }
+
+div .nav-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5vw;
+    margin-bottom: 10vw;
+    
+  }
+  
+div .nav-links ul li {
+    padding: 0 4vw 0 4vw;
+    list-style: none;
+  }
+  
+div .nav-links ul li img {
+    width: 3.5vw;
+    transform: scale(0.90);
+    cursor: pointer;
+  }
+
+div .nav-links ul li img:hover {
+    transform: scale(1.2);
+  }
+
+#contact h3{
+    margin-top: 5vw;
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+#research-expl h3{
+    text-align: center;
+    font-size: 5vw;
+}
+
+/*  about links */
+#about-text a {
+    color: yellow;
+    text-decoration: none;
+    /* transition: color 0.3s ease, text-shadow 0.3s ease; */
+    text-shadow: 0 0 8px rgba(255, 255, 0, 0.75);
+}
+
+#about-text  a:hover {
+    color: white;
+    font-weight: 1000;
+    letter-spacing: 0.3vw;
+    text-shadow: 0 0 18px rgba(255, 255, 0, 1);
+}
+
+
+
+/* LIJNTJE! */
+
+@font-face {
+    font-family: 'Joyce Regular';
+    src: url(fonts/Joyce-Regular.ttf);
+  }
+  
+
+.lijntje {
+    position: relative;
+    font-family: 'Joyce Regular';
+}

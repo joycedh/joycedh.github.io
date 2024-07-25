@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>joisujoisu</title>
+    <link rel="icon" type="image/x-icon" href="/imgs/joisu.ico">
+    <!-- for slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/comment-style.css">
+    
+
+</head>
+<body class="about-body">
+    <div class="menu" id="MENU">
+        <div class="menu-circle" id="menuCircle">
+            <svg id="svg-spiral" viewBox="7.6 7.3 5.5 5.5">
+                <g class="arc" fill="none" stroke="blue" stroke-width="0.05">
+                  <polyline id="spiral" points=""/>
+                </g>
+
+                <text font-size="1"> 
+                    <textPath href="#spiral" id="spiraltext"> </textPath> 
+                </text> 
+              
+              </svg>
+        </div>
+        <ul class="menu-items" id="menuItems">
+            <li class="menu-item"><a href="index.html">Home</a></li>
+            <li class="menu-item"><a href="about.html">About</a></li>
+            <li class="menu-item"><a href="about.html#contact">Contact</a></li>
+            <li class="menu-item"><a href="comments.html">Guestbook</a></li>
+        </ul>
+    </div>
+
+<script>
+    hcb_user = {
+        comments_header : 'Leave me a message...',
+        name_label : 'Name:',
+        content_label: 'Enter your message here',
+        submit : 'Comment',
+        logout_link : '<img title="log out" src="https://www.htmlcommentbox.com/static/images/door_out.svg" alt="[logout]" class="hcb-icon hcb-door-out"/>',
+        admin_link : '<img src="https://www.htmlcommentbox.com/static/images/door_in.svg" alt="[login]" class="hcb-icon hcb-door-in"/>',
+        no_comments_msg: 'No messages yet, be the first!',
+        add:'Write one',
+        again: 'Post another',
+        rss:'<img src="https://www.htmlcommentbox.com/static/images/feed.svg" class="hcb-icon" alt="rss"/> ',
+        said:'said:',
+        prev_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_left.png" class="hcb-icon" title="previous page" alt="[prev]"/>',
+        next_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_right.png" class="hcb-icon" title="next page" alt="[next]"/>',
+        showing:'Showing',
+        to:'to',
+        website_label:'website (optional)',
+        email_label:'email',
+        anonymous:'Anonymous',
+        mod_label:'(mod)',
+        subscribe:'Email Me Replies',
+        add_image:'Add Image',
+        are_you_sure:'Do you want to flag this comment as inappropriate?',
+    
+        reply:'Reply',
+        flag:'Flag',
+        like:'Like',
+    
+        /* dates */
+        days_ago:'days ago',
+        hours_ago:'hours ago',
+        minutes_ago:'minutes ago',
+        within_the_last_minute:'within the last minute',
+    
+        msg_thankyou:'Thank you for your message!',
+        msg_approval:'NOTE: This message is not published until approved',
+        msg_approval_required:'Thank you your message! Your comment will appear once approved by a moderator.',
+    
+        err_bad_html:'Your comment contained bad html.',
+        err_bad_email:'Please enter a valid email address.',
+        err_too_frequent:'You must wait a few seconds between posting comments.',
+        err_comment_empty:'Your comment was not posted because it was empty!',
+        err_denied:'Your comment was not accepted.',
+        err_unknown:'Your comment was blocked for unknown reasons, please report this.',
+        err_spam:'Your comment was detected as spam.',
+        err_blocked:'Your comment was blocked by site policy.',
+    
+        /* SETTINGS */
+        MAX_CHARS: 8192,
+        PAGE:'joisujoisu.nl', 
+        ON_COMMENT: function(){}, /* Function to call after commenting. */
+        RELATIVE_DATES:true /* show dates in the form "X hours ago." etc. */
+    };
+    </script>
+
+    <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
+    <script type="text/javascript" id="hcb"> if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24lb8E7gE2ekJjnJUQO2SiC0"+"&opts=16799&num=10&ts=1721657732457");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
+    <script src="scripts/sunmenu.js"></script>
+    
+    <div class="footer">© 2024 Joyce den Hertog</div>
+</body>
+</html>
+
+
+

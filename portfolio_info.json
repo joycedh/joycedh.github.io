@@ -1,0 +1,561 @@
+{
+    "works": 17,
+    "tags": [
+        "",
+        "ai",
+        "sculpture",
+        "code",
+        "drones",
+        "theatre",
+        "art/science",
+        "digital",
+        "interactive",
+        "vj",
+        "installation",
+        "mixed-media",
+        "sensors",
+        "research",
+        "generative",
+        "dance",
+        "sound"
+    ],
+    "1": {
+        "title": "BlueScreen",
+        "title_fontsize": 18,
+        "tags": [
+            "generative",
+            "digital",
+            "code"
+        ],
+        "description": [
+            "In the digital world, a blue screen signifies malfunction, error, system crash, emptiness. On the other hand, the modernist monochromatic paintings have an indescribable feeling of depth to them, due to endless layering of pigments. Barnett Newman uses this technique in his painting \u2018<a target=\"_blank\" href=\"https://www.stedelijk.nl/en/collection/1376-barnett-newman-cathedra\">Cathedra</a>\u2019, making the blue feel heavy and deep. Can the same effect be achieved by layering different shades of blue on a digital screen?&nbsp; Can I then turn the negative connotations of this so called <i>screen of death</i> into a work of art? BlueScreen was created during CCBT's <a target=\"_blank\" href=\"https://ccbt.rekibun.or.jp/en/events/future-ideations-camp01\">Future Ideations Camp Vol. 1</a>. A continuation of this work, BlueToGreen, was created for <a target=\"_blank\" href=\"https://www.yebizo.com/en/program/1399\">Poems In Code (2024) </a>."
+        ],
+        "exhibited": [
+            {
+                "title": "Shibuya Fashion Week, Tokyo (2024)",
+                "link": "https://shibuya-fw.com/"
+            },
+            {
+                "title": "Poems in Code, Tokyo (2024)",
+                "link": "https://www.yebizo.com/en/program/1399"
+            },
+            {
+                "title": "Future Ideations Camp Vol. 1, CCBT Tokyo (2023)",
+                "link": "https://ccbt.rekibun.or.jp/en/events/future-ideations-camp01"
+            }
+        ],
+        "extra_links": [
+            {
+                "title": "Video + Interview Future Ideations Camp Vol. 1",
+                "link": "https://www.youtube.com/watch?v=GC61Z5OEwfo"
+            }
+        ],
+        "imagefolder": "bluescreen",
+        "images": [
+            "bluetogreen2.gif",
+            "bluetogreen.gif",
+            "ppl.png"
+        ],
+        "main_img": "1.jpg"
+    },
+    "2": {
+        "title": "Digital Twin (at AKOB)",
+        "title_fontsize": 18,
+        "tags": [
+            "theatre",
+            "drones",
+            "code",
+            "dance"
+        ],
+        "description": [
+            "For experimental technology dance company <a target=\"_blank\" href=\"https://www.anotherkindofblue.nl/\">Another Kind of Blue</a>\u2019s Digital Twin tour (Feb-May 2024), I had the role of assistant technical production, front of house operator and drone specialist. I also helped out with software development for their VR installation and researching A.I. development for upcoming performances."
+        ],
+        "exhibited": [],
+        "extra_links": [
+            {
+                "title": "Digital Twin Teaser (2024)",
+                "link": "https://www.youtube.com/watch?v=lurHC9gK260"
+            }
+        ],
+        "imagefolder": "digitaltwin",
+        "images": [
+            "IMG_3797.JPG",
+            "Arm_thumbnaiL_LANDSCAPE.jpg",
+            "IMG_4362.JPG",
+            "IMG_4622.JPG",
+            "IMG_2486.JPG",
+            "dt2.jpg",
+            "IMG_3892.JPG",
+            "dt3.jpg",
+            "2.JPG",
+            "IMG_3473.JPG",
+            "IMG_3088.JPG",
+            "1.JPG"
+        ],
+        "main_img": "01.jpg"
+    },
+    "3": {
+        "title": "You Make Me Glow",
+        "title_fontsize": 16,
+        "tags": [
+            "installation",
+            "interactive",
+            "art/science",
+            "sensors"
+        ],
+        "description": ["<em>You Make Me Glow</em> is an artificial creature that displays the emotion of having a crush on someone. The behavior of the creature is expressed by various chemical reactions such as the chemical luminescence behavior of luminol. The crushing behavior is initiated when someone steps closer to the creature. The closer you are the more the creature will start to blush. When the crush is reciprocated by the user the creature overflows with emotion which can directly be observed in the emergence of foam. Created at <a target=\"_blank\" href=\"https://www.universiteitleiden.nl/en/education/study-programmes/master/media-technology\">MSc Media Technology</a> with Helena Krogh and <a target=\"_blank\" href=\"https://zoebreed.com/sense-floor\">Zo\u00eb Breed </a>."],
+        "exhibited": [],
+        "extra_links": [
+            {
+                "title": "Documentation",
+                "link": "https://sites.google.com/view/artificial-creatures-2022/portfolios/zo%C3%AB-breed/you-make-me-glow?authuser=0"
+            },
+            {
+                "title": "Video",
+                "link": "https://www.youtube.com/watch?v=nDeelJTL4pI"
+            }
+        ],
+        "imagefolder": "glow",
+        "images": [
+            "glow.png",
+            "glow2.png",
+            "glow3.png",
+            "glow0.JPG"
+        ],
+        "main_img": "1.jpg"
+    },
+    "4": {
+        "title": "Plastic Kills #2",
+        "title_fontsize": 18,
+        "tags": [
+            "sculpture"
+        ],
+        "description": [
+            "For this project, I made a sculpture crown from plastic and other trash that I found in nature. It visualises how we live in an abundance of plastic waste, and we should use if efficiently, instead of burning it."
+        ],
+        "exhibited": [
+            {
+                "title": "Kunstbende Zuid Holland",
+                "link": "https://www.kunstbende.nl/wedstrijd/voorronde-zuid-holland"
+            }
+        ],
+        "extra_links": [],
+        "imagefolder": "hoofdtooi",
+        "images": [
+            "pk1.JPG",
+            "pk2.jpeg"
+        ],
+        "main_img": "1.jpg"
+    },
+    "5": {
+        "title": "Lijntje",
+        "title_fontsize": 18,
+        "tags": [
+            "interactive",
+            "code",
+            "digital",
+            "generative"
+        ],
+        "description": [
+            "Lijntje is a digital poem which follows your mouse. In that way, it shapes a unique line each time. The poem is about the lines/paths in our lives that could have gone different than we expected. Created during COVID-19. Font: my handwriting."
+        ],
+        "exhibited": [],
+        "extra_links": [
+            {
+                "title": "Interactive experience (desktop only)",
+                "link": "lijntje.html"
+            }
+        ],
+        "imagefolder": "lijntje",
+        "images": [
+            "sslijntje.png",
+            "sslijntje2.png",
+            "screenrec.gif"
+        ],
+        "main_img": "1.jpg"
+    },
+    "6": {
+        "title": "Apr\u00e8s la marne",
+        "title_fontsize": 18,
+        "tags": [
+            "generative",
+            "digital",
+            "sound",
+            "code"
+        ],
+        "description": [
+            "A reinterpretation of Filippo Marinetti\u2019s Apr\u00e8s la marne, joffre visita le front en auto in Pure Data. I wanted to know if it was possible to create poetry with sound instead of words. Marinetti combines sounds with visuals, and Pure Data actually does the same: you create interesting sounds, but the visuals of the program are as interesting to look at as the sounds. Created at <a target=\\\"_blank\\\" href=\\\"https://www.universiteitleiden.nl/en/education/study-programmes/master/media-technology\\\">MSc Media Technology.</a>"
+        ],
+        "exhibited": [],
+        "extra_links": [],
+        "imagefolder": "marinetti",
+        "images": [
+            "m2.png",
+            "m1.png"
+        ],
+        "main_img": "1.jpg"
+    },
+    "7": {
+        "title": "GAN research",
+        "title_fontsize": 18,
+        "tags": [
+            "ai",
+            "code",
+            "digital",
+            "generative",
+            "art/science"
+        ],
+        "description": [
+            "For my Bachelor's Thesis, I trained GANs on a dataset of artworks and their titles, and provided them with new textual input of newspaper headlines. The aim of this process was to see whether GANs would be able to create accurate artistic representations of the news. To measure this, I gauged peoples responses and emotions on the works, and contextualised the works in the broader scene of GAN art and artists. The final paper was published in AUC's undergraduate journal InPrint: <a target=\"_blank\" href=\"https://drive.google.com/file/d/1-swW3QcRDFAkwnTOjUcLWZGkVxTrSeQJ/view\">Capstone issue, Volume 14.</a>"
+        ],
+        "exhibited": [],
+        "extra_links": [],
+        "imagefolder": "newsgans",
+        "images": [
+            "AI-4.png",
+            "AI-7.png",
+            "AI-2.png",
+            "AI-15.png",
+            "AI-29.png",
+            "AI-24.png",
+            "AI-32.png",
+            "AI-33.png",
+            "AI-22.png",
+            "AI-36.png",
+            "AI-8.png",
+            "AI-52.png",
+            "AI-51.png",
+            "AI-40.png",
+            "AI-55.png",
+            "AI-56.png"
+        ],
+        "main_img": "AI-36.png"
+    },
+    "8": {
+        "title": "Penguin Patterns",
+        "title_fontsize": 18,
+        "tags": [
+            "code",
+            "art/science",
+            "generative",
+            "digital"
+        ],
+        "description": [
+            "For Penguin Patterns, we developed an algorithm based on the huddling movement of Emperor Penguins. This natural phenomenon can be approach by a mathematical formula, which we visualised in an aesthetic way. In collaboration with <a target=\"_blank\" href=\"https://zoebreed.com/sense-floor\">Zo\u00eb Breed </a>."
+        ],
+        "exhibited": [],
+        "extra_links": [],
+        "imagefolder": "penguin",
+        "images": [
+            "penguins.png",
+            "peng3.png",
+            "peng2.png",
+            "peng1.png",
+            "peng4.png"
+        ],
+        "main_img": "1.jpg"
+    },
+    "9": {
+        "title": "Plastic Kills #1",
+        "title_fontsize": 18,
+        "tags": [
+            "mixed-media"
+        ],
+        "description": [
+            "A collection of works where I embroidered pictures on plastic to visualise how we not only kill animals through plastic waste, but also ourselves."
+        ],
+        "exhibited": [],
+        "extra_links": [],
+        "imagefolder": "plastickills",
+        "images": [
+            "29344987_1309060972526659_1165537762_n.jpg",
+            "29138037_1309060629193360_967204060_n.jpg",
+            "RackMultipart20170424-11525-uh87ak.jpg",
+            "29019907_1309060599193363_753616767_n.jpg",
+            "marisplastic.jpg"
+        ],
+        "main_img": "1.jpg"
+    },
+    "10": {
+        "title": "PureDance",
+        "title_fontsize": 18,
+        "tags": [
+            "art/science",
+            "code",
+            "sound",
+            "dance",
+            "interactive",
+            "mixed-media",
+            "installation",
+            "generative"
+        ],
+        "description": [
+            "PureDance is an interactive sound experience that generates sound on the basis of the user\u2019s position in space and the movements and angles of their arms and legs. Using PureDate and MediaPipe\u2019s PoseNet to turn the body into an instrument. Every change in limb angles and proximity influences the music being generated. In collaboration with <a target=\"_blank\" href=\"https://zoebreed.com/sense-floor\">Zo\u00eb Breed </a>."
+        ],
+        "exhibited": [
+            {
+                "title": "C3 Fest 2024",
+                "link": "https://c3fest.com/"
+            },
+            {
+                "title": "Young Academy Leiden",
+                "link": "https://www.universiteitleiden.nl/en/news/2024/06/unique-exhibition-translates-science-into-music-images-and-dance"
+            }
+        ],
+        "extra_links": [
+            {
+                "title": "Video",
+                "link": "https://www.youtube.com/watch?v=aAQV8n2RZNM&feature=youtu.be"
+            },
+            {
+                "title": "Github",
+                "link": "https://github.com/zoebreed/Sound_Space_Interaction"
+            }
+        ],
+        "imagefolder": "puredance",
+        "images": [
+            "pd.gif",
+            "pd3.png",
+            "YAL and JUL Wetenschap ontmoet Kunst expositie 11 juni 2024 - gemaakt door Wilke Geurds  (42 van 49).JPG",
+            "PD_screenshot.png"
+        ],
+        "main_img": "1.jpg"
+    },
+    "11": {
+        "title": "Recoding Remko Scha",
+        "title_fontsize": 16,
+        "tags": [
+            "generative",
+            "digital",
+            "code"
+        ],
+        "description": [
+            "I participated in a series of workshops about reinterpreting the work of computer artist Remko Scha. We learned about his work and found our own ways to reiterate his ideas into our own works. The workshops ended with a presentation evening. Using TouchDesigner, I created similar patterns and shapes like Remko Scha, but in 3D instead of 2D, which are randomly generated on every mouse click. Created for <a target=\"_blank\" href=\"https://creativecodingutrecht.nl\">Creative Coding Utrecht</a>."
+        ],
+        "exhibited": [
+            {
+                "title": "Digital Care: Remko Scha, CCU (2023)",
+                "link": "https://creativecodingutrecht.nl/en/archive/digital-care-remko-scha"
+            }
+        ],
+        "extra_links": [],
+        "imagefolder": "recoding",
+        "images": [
+            "screen1.png",
+            "screen2.png",
+            "screen3.png",
+            "shorter_recoding-ezgif.com-video-to-gif-converter.gif",
+            "pres.jpg",
+            "pres2.jpg"
+        ],
+        "main_img": "1.jpg"
+    },
+    "12": {
+        "title": "Sensefloor",
+        "title_fontsize": 18,
+        "tags": [
+            "sensors",
+            "installation",
+            "sound",
+            "interactive",
+            "code",
+            "art/science",
+            "mixed-media",
+            "sculpture",
+            "dance"
+        ],
+        "description": [
+            "SenseFloor is a dance floor that reacts to sound and body temperature. It has DMX lights embedded in its surface, which will change in color and brightness based on the input variables of sensors installed on the floor. With <a target=\"_blank\" href=\"https://zoebreed.com/sense-floor\">Zo\u00eb Breed </a>and Ilse Driessen. Created for <a target=\"_blank\" href=\"https://www.universiteitleiden.nl/en/education/study-programmes/master/media-technology\">MSc Media Technology</a>.\n"
+        ],
+        "exhibited": [],
+        "extra_links": [
+            {
+                "title": "Github",
+                "link": "https://github.com/joycedh/SenseFloor"
+            }
+        ],
+        "imagefolder": "sensefloor",
+        "images": [
+            "dance.png",
+            "sense2.png",
+            "sense3.jpg",
+            "pic.jpg"
+        ],
+        "main_img": "1.jpg"
+    },
+    "13": {
+        "title": "SWDance",
+        "title_fontsize": 16,
+        "tags": [
+            "dance",
+            "art/science",
+            "digital",
+            "research",
+            "generative",
+            "ai"
+        ],
+        "description": [
+            "For my thesis at <a target=\"_blank\" href=\"https://www.universiteitleiden.nl/en/education/study-programmes/master/media-technology\">MSc Media Technology,</a> I trained a text-to-motion diffusion model (AI) that generates dance from poetical text input on my own dataset. The aim of this research was to explore subjectivity and creativity in text-to-motion AI. In the future, I would like to translate its generated movement into a real-life dance performance. The paper has been presented and published at the <a target=\"_blank\" href=\"https://moco24.movementcomputing.org/\">Motion Computing Conference '24</a> in Utrecht."
+        ],
+        "exhibited": [],
+        "extra_links": [
+            {
+                "title": "Publication MOCO'24",
+                "link": "https://dl.acm.org/doi/10.1145/3658852.3659079"
+            },
+            {
+                "title": "Github",
+                "link": "https://github.com/joycedh/MDM-SWDance"
+            }
+        ],
+        "imagefolder": "swdance",
+        "images": [
+            "swd1.png",
+            " .gif",
+            "swd4.gif",
+            "swd2.gif"
+        ],
+        "main_img": "1.jpg"
+    },
+    "14": {
+        "title": "Untitled (with Virgilio Vogels)",
+        "title_fontsize": 16,
+        "tags": [
+            "ai",
+            "code",
+            "generative",
+            "digital"
+        ],
+        "description": [
+            "Together with Berlin artist <a target=\"_blank\" href=\"https://www.virgiliovogels.com\">Virgilio Vogels</a>, I worked on a series of artworks generated by neural networks trained on his previous works and his ideas and visions. The works were showcased, besides one of his new works, in a virtual exhibition hosted by <a target=\"_blank\" href=\"https://edge-neuro.art\">EDGE</a>. The exhibition can still be visited digitally on <a target=\"_blank\" href=\"https://www.artsteps.com/embed/5fa1a6c4f6b7e90872946013/560/315\">Artsteps</a>."
+        ],
+        "exhibited": [
+            {
+                "title": "Digital Exhibition EDGE on Artsteps",
+                "link": "https://www.artsteps.com/embed/5fa1a6c4f6b7e90872946013/560/315"
+            }
+        ],
+        "extra_links": [],
+        "imagefolder": "virgilio",
+        "images": [
+            "AI-10.JPG",
+            "AI-5.JPG",
+            "AI-4.JPG",
+            "AI-11.JPG",
+            "AI-13.JPG",
+            "AI-6.JPG",
+            "AI-7.JPG",
+            "AI-12.JPG",
+            "AI-16.JPG",
+            "AI-3.JPG",
+            "AI-2.JPG",
+            "AI-15.JPG",
+            "AI-1.JPG",
+            "AI-14.JPG",
+            "AI-9.JPG",
+            "AI-8.JPG"
+        ],
+        "main_img": "AI-9.JPG"
+    },
+    "15": {
+        "title": "VJing",
+        "title_fontsize": 18,
+        "tags": [
+            "generative",
+            "code",
+            "sound",
+            "vj",
+            "digital"
+        ],
+        "description": [
+            "Currently, I am building more experience in VJing. I started in Japan at \u4eac\u5927VJ\u30b5\u30fc\u30af\u30eb (Kyoto University's VJ club), where I learned Touchdesigner. I also use Hydra and Resolume. I enjoy experimenting and exploring to create audio-reactive visuals. "
+        ],
+        "exhibited": [],
+        "extra_links": [
+            {
+                "title": "Stream: AMW.FM Melferdi",
+                "link": "https://www.youtube.com/watch?v=481VjklxMOI&t=1s"
+            },
+            {
+                "title": "Stream: AMW.FM Viki",
+                "link": "https://www.youtube.com/watch?v=6suDxyYPWYY&t=1933s"
+            }
+        ],
+        "imagefolder": "vj",
+        "images": [
+            "vj2.jpg",
+            "vj0.JPG",
+            "vj20.gif",
+            "vj4.gif",
+            "vj5.gif",
+            "vj2.gif",
+            "vj3.gif",
+            "vj1.gif",
+            "vj0.gif",
+            "vj1.jpg"
+        ],
+        "main_img": "1.jpg"
+    },
+    "16": {
+        "title": "We_Connect",
+        "title_fontsize": 16,
+        "tags": [
+            "research",
+            "installation",
+            "interactive",
+            "mixed-media",
+            "sensors"
+        ],
+        "description": [
+            "For the final project of the first year of <a target=\"_blank\" href=\"https://www.universiteitleiden.nl/en/education/study-programmes/master/media-technology\">MSc Media Technology,</a> we had to create an interactive work which showcased our research perspective on the theme \u2018Hybrid\u2019.&nbsp;Our group chose to study the concept <i>Heterotopia</i>, coined by Michael Foucault. A <i>heterotopia</i> is a place in between places, a space within a space. It contradicts or inverts the space in which it is within (Foucault, 1994). A public toilet is a good example of this, as it is simultaneously a private space within a very public space.&nbsp;In We_Connect, we wanted to show the audience that a public toilet in a public space is in fact, very public. Therefore, we decided to make a video call connection with the toilet inside the exhibition space. A ring went off in the exhibition space whenever someone entered the toilet. The person in the toilet would find a big screen facing them, with the other person talking to them and asking questions. They could talk back if they want, or mute themselves if they wanted more privacy for doing their business; this would not make the person on the screen disappear."
+        ],
+        "exhibited": [
+            {
+                "title": "Hybrid, V2_, Rotterdam (2022)",
+                "link": "https://www.universiteitleiden.nl/media-technology/events/science-2-experience-exhibition-hybrid-june-2022"
+            }
+        ],
+        "extra_links": [],
+        "imagefolder": "we_connect",
+        "images": [
+            "wc100.JPG",
+            "WC15.JPG",
+            "WC11.JPG",
+            "WC12.JPG",
+            "wc2.jpeg",
+            "0_wc3.jpeg",
+            "WC4.jpeg",
+            "wc2.JPG",
+            "wc5.JPG",
+            "wc6.png"
+        ],
+        "main_img": "1.jpg"
+    },
+    "17": {
+        "title": "Dance + Visuals - experiments",
+        "title_fontsize": 16,
+        "tags": [
+            "code",
+            "digital",
+            "mixed-media",
+            "generative",
+            "dance"
+        ],
+        "description": [
+            "Using live coding languages, I am experimenting with combining dance and audio-reactive visuals to create artistic video output. WIP. "
+        ],
+        "exhibited": [],
+        "extra_links": [
+            {
+                "title": "More on my instagram",
+                "link": "https://www.instagram.com/joisujoisu/"
+            }
+        ],
+        "imagefolder": "dance-experiment",
+        "images": [
+            "exp2.gif",
+            "exp1.gif"
+        ],
+        "main_img": "1.jpg"
+    }
+}
